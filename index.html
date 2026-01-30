@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>郵便番号検索アプリ</title>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>郵便番号検索アプリ</h1>
+
+  <h2>郵便番号 → 住所</h2>
+  <input id="zipInput" placeholder="例：9012301">
+  <button onclick="findAddress()">検索</button>
+  <p id="zipResult"></p>
+
+  <h2>住所 → 郵便番号</h2>
+  <input id="addrInput" placeholder="例：沖縄県今帰仁村">
+  <button onclick="findZip()">検索</button>
+  <p id="addrResult"></p>
+</body>
+</html>
